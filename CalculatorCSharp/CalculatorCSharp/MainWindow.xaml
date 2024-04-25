@@ -45,9 +45,9 @@
         <Button Grid.Column="3" Grid.Row="3" Content="-" FontSize="50" Click="Operation" />
         <Button Grid.Column="3" Grid.Row="4" Content="*" FontSize="50" Click="Operation" />
         <Button Grid.Column="3" Grid.Row="5" Content="/" FontSize="50" Click="Operation" />
-        <Button Grid.Column="2" Grid.Row="2" Content="C" FontSize="50" Click="Clean_Current" />
-        <Button Grid.Column="1" Grid.Row="2" Content="CE" FontSize="50" Click="Clean_All" />
-        <Button Grid.Column="0" Grid.Row="2" Content="&#x2794;" FontSize="50" Click="Clean_One" />
+        <Button Grid.Column="2" Grid.Row="2" Content="C" FontSize="50" Click="CleanCurrent" />
+        <Button Grid.Column="1" Grid.Row="2" Content="CE" FontSize="50" Click="CleanAll" />
+        <Button Grid.Column="0" Grid.Row="2" Content="&#x2794;" FontSize="50" Click="CleanOne" />
 
         <Button Grid.Column="0" Grid.Row="6" Grid.ColumnSpan="2" Content="=" FontSize="50" Click="Equals" />
     </Grid>

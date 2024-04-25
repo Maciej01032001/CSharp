@@ -23,32 +23,32 @@ namespace CalculatorCSharp
         private void Number(object sender, RoutedEventArgs e)
         {
             Button button = (Button)sender;
-            
-                if (button.Content.ToString() == ",")
+
+            if (button.Content.ToString() == ",")
+            {
+
+
+                if (fraction == false)
                 {
-                    
-                    
-                    if (fraction == false)
+                    if (txtCurrentNumber.Text == "")
                     {
-                        if (txtCurrentNumber.Text == "")
-                         {
-                            txtCurrentNumber.Text = "0,";
-                         }
-                        else 
-                        {
-                            txtCurrentNumber.Text += button.Content.ToString();
-                        }
-                        fraction = true;
-                }
-                }
-                else
-                {
-                    if (txtCurrentNumber.Text != "0")
-                    {
-                    txtCurrentNumber.Text += button.Content.ToString();
+                        txtCurrentNumber.Text = "0,";
                     }
+                    else
+                    {
+                        txtCurrentNumber.Text += button.Content.ToString();
+                    }
+                    fraction = true;
                 }
-            
+            }
+            else
+            {
+                if (txtCurrentNumber.Text != "0")
+                {
+                    txtCurrentNumber.Text += button.Content.ToString();
+                }
+            }
+
         }
 
         private void Operation(object sender, RoutedEventArgs e)
@@ -115,13 +115,13 @@ namespace CalculatorCSharp
             }
         }
 
-        private void Clean_Current(object sender, RoutedEventArgs e)
+        private void CleanCurrent(object sender, RoutedEventArgs e)
         {
             txtCurrentNumber.Text = "";
             fraction = false;
         }
 
-        private void Clean_All(object sender, RoutedEventArgs e)
+        private void CleanAll(object sender, RoutedEventArgs e)
         {
             txtCurrentNumber.Text = "";
             txtResult.Text = "";
@@ -129,7 +129,7 @@ namespace CalculatorCSharp
             fraction = false;
         }
 
-        private void Clean_One(object sender, RoutedEventArgs e)
+        private void CleanOne(object sender, RoutedEventArgs e)
         {
 
             txtCurrentNumber.Text = txtCurrentNumber.Text.Substring(0, txtCurrentNumber.Text.Length - 1);
