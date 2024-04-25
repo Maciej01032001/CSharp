@@ -1,0 +1,97 @@
+# Visual Studio temporary files
+.vs/
+
+# Compiled binary files
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+**/packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio code files
+.vscode/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop
+*.pidb
+*.userprefs
+
+# Xamarin Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Unity generated files
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Builds/
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Rider files
+.idea/
+
+# Tools
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.sw?
+*.swo
+
+# Package files
+*.nupkg
+*.pupkg
+*.vsix
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.tgz
+*.bzip
+*.bzip2
+*.xz
+*.exe
+
